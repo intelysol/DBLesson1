@@ -24,6 +24,12 @@ namespace frmDatabase
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            btnNew.Image = Properties.Resources.New_file;
+            btnSave.Image = Properties.Resources.Save;
+            btnDelete.Image = Properties.Resources.Erase;
+            btnClose.Image = Properties.Resources.Undo;
+            
             FillcmbDepartments();
             txtId.Clear();
             txtDptName.Clear();
